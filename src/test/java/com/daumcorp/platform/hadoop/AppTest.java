@@ -31,8 +31,7 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testApp() throws Exception {
+        MyJob.main(new String[]{"./res/input", "./res/output"});
     }
 }
